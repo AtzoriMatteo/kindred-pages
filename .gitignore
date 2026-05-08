@@ -12,10 +12,20 @@ venv/
 # Data
 data/raw/*
 !data/raw/.gitkeep
+data/*.json
+data/*.json.gz
+data/*.csv
+data/*.parquet
 
 # Models
 models/*.pkl
 models/*.joblib
+models/*.npy
+models/*.faiss
+
+# IDE
+.vscode/
+.idea/
 
 # OS
 .DS_Store
